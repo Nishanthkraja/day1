@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nishanth's Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+    .profile-container {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 800px;
+      width: 100%;
+    }
+    .profile-image {
+      flex-shrink: 0;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+      border: 2px solid #ddd;
+    }
+    .profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .profile-info {
+      max-width: 600px;
+    }
+    .profile-info h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+    .profile-info p {
+      margin: 10px 0 0;
+      font-size: 16px;
+      color: #666;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-image">
+      <img src="C:\Users\mohan\Downloads\WhatsApp Image 2025-01-09 at 09.14.10_507ed4b3.jpg" alt="C:\Users\mohan\Downloads\WhatsApp Image 2025-01-09 at 09.14.10_507ed4b3.jpg">
+    </div>
+    <div class="profile-info">
+      <h1>Nishanth</h1>
+      <p>Engineering student</p>
+      <p>Engineering is one of the strongest occupations to pick. Being an engineer means, you can explore and develop new ideas in several ways.
+         It is always exciting to work on something new. But most of the engineers fight for the best chance through their careers.</p>
+         <div class="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Nishanth</p>
+            <p><strong>Email:</strong> <a href="mailto:nishanth@email.com">nishanth@email.com</a></p>
+            <p><strong>Phone:</strong> +91-9876543210</p>
+            <div class="hobbies-section">
+                <h2>Hobbies and Interests</h2>
+                <ul class="hobbies-list">
+                  <li>Photography</li>
+                  <li>Reading books</li>
+                  <li>Sports</li>
+                  <section id="contact">
+                    <div class="card">
+                      <h2>Contact</h2>
+                      <p>Email: <a href="mailto:[nishanth@email.com]">[nishanth@email.com]</a></p>
+                      <p>Phone: [9876543210]</p>
+                    </div>
+                  </section>
+                
+                  <footer>
+                    <p> [2025] [nishanthkraja]</p>
+                  </footer>
+                
+            
+        
+    </div>
+  </div>
+</body>
+</html>
